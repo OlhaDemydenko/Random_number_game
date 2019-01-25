@@ -12,7 +12,7 @@
 	<link href="css/bootstrap-grid.min.css" rel="stylesheet">
 
 	<!-- Google Fonts Comfortaa-->
-	<link href="https://fonts.googleapis.com/css?family=Comfortaa:400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700&amp;subset=cyrillic" rel="stylesheet">
 
 	<!-- Custom styles for this template -->
 	<link rel="stylesheet" type="text/css" href="css/style.css">
@@ -25,14 +25,15 @@
 	
 
 		<div class="row">
-			<div class="col">
+			<div class="col-xl">
 				<h1>Проверь свою удачу: угадай число!</h1>
 			</div>
 		</div>
 
 			
-		<div class="row justify-content-around align-items-center">
-			<div id="choise" class="col-5">
+		<div class="row justify-content-around">
+			<div id="choise" class="col-xl-5">
+					<div id="numbers">
 					<button class="btn" value="1">1</button>
 					<button class="btn" value="2">2</button>
 					<button class="btn" value="3">3</button>
@@ -43,18 +44,19 @@
 					<button class="btn" value="8">8</button>
 					<button class="btn" value="9">9</button>
 					<button class="btn" value="10">10</button>
+					</div>
 			</div>
 
 
-			<div class="col-5">
+			<div class="col-xl-5">
 				<div  id="result" class="row align-items-center">
 
 					<div class="col result_number">
-						<div id="random_number"></div>
+						<div id="random_number">?</div>
 					</div>
 					
-					<div class="col">
-						<p id="result_text"> &#8656 Выберите своё число</p>
+					<div class="col" id="result_text">
+						<p>&#8656 Выберите своё число</p>
 					</div>
 
 				</div>
