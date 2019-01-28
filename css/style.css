@@ -5,7 +5,9 @@ html{
 }
 
 body{
-	background: rgb(253, 222, 194);
+	background-image: url(../backgr.jpg);
+	background-repeat: repeat-y;
+	background-size: cover;
     margin: 0;
 }
 
@@ -19,15 +21,16 @@ body{
 
 h1{
 	text-align: center;
-	color: rgb(231, 128, 131);
+	color: rgb(131, 155, 67);
 	font-weight: 700;
+	letter-spacing: 1.35px;
 	font-size: 1rem;
 	margin: 1vh;
 }
 
 #choise{
 	height: 45vh;
-	background-color: rgb(253, 188, 156);
+	background-color: rgb(168, 214, 169);
 	display: flex;
 	justify-content: center;
 }
@@ -56,7 +59,7 @@ h1{
 }
 
 .btn:hover{
-	background-color: rgba(232, 128, 44, 0.5);
+	background-color: rgb(61, 107, 77);
 	color: rgb(255, 255, 255);
 }
 
@@ -66,7 +69,7 @@ h1{
 	flex-direction: column;
 	flex-wrap: wrap;
 	align-items: center;
-	background-color: rgb(253, 188, 156);
+	background-color: rgb(168, 214, 169);
 }
 
 .result_number{
@@ -76,7 +79,7 @@ h1{
 #random_number{
 	height: 3rem;
 	width: 3rem;
-	background-color: rgb(231, 128, 131);
+	background-color: rgb(61, 107, 77);
 	font-size: 1.5rem;
 	margin: auto;
 	display: flex;
@@ -86,7 +89,7 @@ h1{
 
 #result_text{
 	display: flex;
-	color: rgb(231, 128, 131);
+	color: rgb(131, 155, 67);
 	justify-content: center;
 	align-items: center;
 	text-align: center;
