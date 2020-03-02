@@ -19,7 +19,7 @@
 	function Choise_number(event){
 		var loader = setInterval(function() {
 		result_text.innerHTML = '<p>секундочку... поколдуем...</p>';
-		result_text.style.color = "rgb(255, 255, 255)";
+		result_text.style.color = "#fff";
   		var timerRandom = GetRandomIntInclusive(1, 9);
   		random_number.innerText = timerRandom;
 		}, 90);
@@ -32,11 +32,11 @@
 			random_number.innerText = rand;
 				if(btn_value == rand){
 					result_text.innerHTML = '<p>Поздравляем! Вы угадали число!</p>';
-					result_text.style.color = "#1d6607";
+					result_text.style.color = "#079e23";
 				}
 				else{
 					result_text.innerHTML = '<p>К сожалению, удача не на Вашей стороне</p>'
-					result_text.style.color = "#e23838";
+					result_text.style.color = "#bc1f00";
 				}
 		}, 1800);	
 		
