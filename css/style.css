@@ -80,15 +80,17 @@ h1{
 	width: 3rem;
 	background-color: #285d7f;
 	font-size: 1.5rem;
+	color: #fff;
 	margin: auto;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 #result_text{
 	display: flex;
-	color: rgb(131, 155, 67);
+	color: #fff;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
