@@ -5,32 +5,31 @@ html{
 }
 
 body{
+	min-height: 100vh;
 	background-image: url(../backgr.jpg);
-	background-repeat: repeat-y;
+	background-repeat: no-repeat;
 	background-size: cover;
     margin: 0;
 }
 
 
 .container-fluid {
-	position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
+	padding-top: 10%;
+	padding-bottom: 10%;
 }
 
 h1{
 	text-align: center;
-	color: rgb(131, 155, 67);
+	color: #fff;
 	font-weight: 700;
 	letter-spacing: 1.35px;
 	font-size: 1rem;
-	margin: 1vh;
+	margin: 20px;
 }
 
 #choise{
 	height: 45vh;
-	background-color: rgb(168, 214, 169);
+	background-color: #4da2d4;
 	display: flex;
 	justify-content: center;
 }
@@ -59,8 +58,8 @@ h1{
 }
 
 .btn:hover{
-	background-color: rgb(61, 107, 77);
-	color: rgb(255, 255, 255);
+	background-color: #285d7f;
+	color: #fff;
 }
 
 #result{
@@ -69,7 +68,7 @@ h1{
 	flex-direction: column;
 	flex-wrap: wrap;
 	align-items: center;
-	background-color: rgb(168, 214, 169);
+	background-color: #4da2d4;
 }
 
 .result_number{
@@ -79,7 +78,7 @@ h1{
 #random_number{
 	height: 3rem;
 	width: 3rem;
-	background-color: rgb(61, 107, 77);
+	background-color: #285d7f;
 	font-size: 1.5rem;
 	margin: auto;
 	display: flex;
